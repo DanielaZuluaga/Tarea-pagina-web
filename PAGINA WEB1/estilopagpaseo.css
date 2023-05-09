@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Titulos{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.Enunciados{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+nav ul{
+    background-color: #317a9e;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    width: 150px;
+}
+.container{
+    position: relative;
+}
+input{
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+}
+.botonbuscador{
+    background-color: rgb(109, 73, 209);
+    padding: 10px 15px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0 5px 5px 0;
+    color: aliceblue;
+}
+.Localidades{
+    background-color: #317a9e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-family: 'Gloria Hallelujah';
+}
+.Linkslocalidades a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+.Linkslocalidades{
+    background-color: #f9f9f9;
+    width: 185px;
+    display: none;
+}
+.Linkslocalidades a:hover{
+    background-color: #f1f1f1;
+}
+.desplegable:hover .Linkslocalidades{
+    display: block;
+}
+
+
+/*Inicia personalizacion de la pagina de info del paseador*/
+.titulopaseadores{
+    text-align: left;
+    font-family: 'Gloria Hallelujah';
+    font-size: 50px;
+    margin-left: 250px;
+}
+.cajon1{
+    margin-left: 300px;
+    margin-right: 200px;
+    padding: 30px;
+    background: #afadad;
+    font-family: 'Gloria Hallelujah';
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+.imagenes-paseadores{
+    width: 400px;
+    margin-right: 50px;
+    text-align: center;
+}
+.cajaizq{
+    padding: 30px;
+}
+.botones1{
+    text-align: center;
+    color: white;
+}
+.fcc-btn {
+    background-color:  #317a9e;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gloria Hallelujah';
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+    
+  }
+  .fcc-btn:hover {
+    background-color: #223094;
+  }

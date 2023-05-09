@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register{
+    width: 800px;
+    background:  #317a9e;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    font-family: 'Gloria Hallelujah';
+    font-size: 25px;
+    color: white;
+}
+.form-register h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.controls{
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    font-family: 'Gloria Hallelujah';
+    font-size: 20px;
+    
+}
+button{
+    font-size: 25px;
+    font-family: 'Gloria Hallelujah';
+    padding: 10px;
+    text-align: center;
+}
+.boton-enviar{
+    text-align: center;
+    padding: 10px;
+}
